@@ -1,0 +1,21 @@
+{
+  "name": "heka-api-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Henrik Næss <henrik@heka.no>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@fastify/swagger": "^8.0.0",
+    "@fastify/swagger-ui": "^1.0.3",
+    "@sendgrid/mail": "^7.7.0",
+    "config": "^3.3.8",
+    "fastify": "^4.8.1",
+    "fastify-oas": "^3.0.8",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
