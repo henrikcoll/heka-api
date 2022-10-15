@@ -2,6 +2,7 @@ const fastify = require('fastify')();
 const config = require('config');
 
 fastify
+	.register(require('@fastify/cors'))
 	.register(require('@fastify/swagger'), {
 		swagger: {
 			info: {

@@ -10,6 +10,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "@fastify/cors": "^8.1.0",
     "@fastify/swagger": "^8.0.0",
     "@fastify/swagger-ui": "^1.0.3",
     "config": "^3.3.8",
