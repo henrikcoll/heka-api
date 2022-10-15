@@ -15,7 +15,7 @@ module.exports = {
 	},
 	ding: {
 		jwt: { secret: 'UPDATE ME' },
-		sendgrid: {
+		mailgun: {
 			apiKey: 'UPDATE ME',
 		},
 	},
