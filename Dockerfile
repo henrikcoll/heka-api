@@ -8,4 +8,6 @@ RUN npm ci && npm cache clean --force
 
 EXPOSE 3000
 
+ENV NODE_ENV=production
+
 ENTRYPOINT ["npm", "run", "start"]

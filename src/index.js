@@ -50,4 +50,5 @@ fastify
 
 fastify.listen({
 	port: 3000,
+	host: '::',
 });
